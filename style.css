@@ -26,7 +26,7 @@
   .header {
     text-align: center;
   }
-  
+
 }
 
 .main {
@@ -50,7 +50,7 @@
 }
 
 #incomplete-tasks, #completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
@@ -107,6 +107,7 @@
 #new-task {
   width: 318px;
 }
+
 /* Task list */
 
 .item {
@@ -153,14 +154,14 @@
 /* Edit Task */
 
 .item .task[type="text"] {
-  display:none
+  display: none
 }
 
 .item.edit-mode .task[type="text"] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .item.edit-mode .task {
-  display:none;
+  display: none;
 }
